@@ -4,8 +4,7 @@ A video of the `Hello World` program in countless different programming language
 
 ## Rendering from Source
 
-The following fonts must be installed beforehand:
-* Install fonts from [fonts.google.com](https://fonts.google.com/share?selection.family=Noto+Emoji|Noto+Naskh+Arabic|Noto+Sans+Arabic|Noto+Sans+Bengali|Noto+Sans+Hebrew|Noto+Sans+JP|Noto+Sans+Javanese|Noto+Sans+KR|Noto+Sans+Math|Noto+Sans+Mono|Noto+Sans+Runic|Noto+Sans+SC|Noto+Sans+Symbols+2|Noto+Serif+Bengali|Noto+Serif+Hebrew|Noto+Serif+JP|Noto+Serif+KR|Noto+Serif+SC|Noto+Serif)
+The following fonts must be installed beforehand: [fonts.google.com/share?...](https://fonts.google.com/share?selection.family=Noto+Emoji|Noto+Naskh+Arabic|Noto+Sans+Arabic|Noto+Sans+Bengali|Noto+Sans+Hebrew|Noto+Sans+JP|Noto+Sans+Javanese|Noto+Sans+KR|Noto+Sans+Math|Noto+Sans+Mono|Noto+Sans+Runic|Noto+Sans+SC|Noto+Sans+Symbols+2|Noto+Serif+Bengali|Noto+Serif+Hebrew|Noto+Serif+JP|Noto+Serif+KR|Noto+Serif+SC|Noto+Serif)
 
 To install the required python packages:
 ```console
