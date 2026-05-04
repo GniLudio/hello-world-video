@@ -29,6 +29,7 @@ from config import (
 )
 from content import iter_content, read_code
 from tex import get_tex_template, remove_vrules, to_tex
+from utils import get_project_folder
 
 assert isinstance(sys.stdout, io.TextIOWrapper)
 assert isinstance(sys.stderr, io.TextIOWrapper)
@@ -58,7 +59,6 @@ class HelloWorldScene(Scene):
         self.code_rectangle.shift(0.5 * self.name_rectangle.height * manim.DOWN)
 
         self.content_objects: list[tuple[manim.VMobject, manim.VMobject, manim.VMobject]] = []
-
         for entry in self.content:
             if manim.config.verbosity in {"DEBUG", "INFO", "WARNING"}:
                 print("\t", *entry[:1], flush=True)
@@ -72,6 +72,9 @@ class HelloWorldScene(Scene):
 
         self.add(self.title_obj)
         self.wait(1 / manim.config.frame_rate)
+        assert isinstance(self.camera, manim.Camera)
+        im = self.camera.get_image()
+        im.save(get_project_folder() / "media" / "thumbnail.png")
         self.remove(self.title_obj)
 
         previous_entry = self.content_objects[0]
