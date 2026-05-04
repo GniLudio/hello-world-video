@@ -1,0 +1,28 @@
+FONTS: dict[str, tuple[str, str]] = {
+    "english": ("Noto Serif", "Noto Sans Mono"),
+    "chinese": ("Noto Serif SC", "Noto Sans SC"),
+    "japanese": ("Noto Serif JP", "Noto Sans JP"),
+    "korean": ("Noto Serif KR", "Noto Sans KR"),
+    "hebrew": ("Noto Serif Hebrew", "Noto Sans Hebrew"),
+    "bengali": ("Noto Serif Bengali", "Noto Sans Bengali"),
+    "arabic": ("Noto Naskh Arabic", "Noto Sans Arabic"),
+    "javanese": ("Noto Sans Javanese", "Noto Sans Javanese"),
+    "emoji": ("Noto Emoji", "Noto Emoji"),
+    "runic": ("Noto Sans Runic", "Noto Sans Runic"),
+    "symbols": ("Noto Sans Symbols 2", "Noto Sans Symbols 2"),
+    "math": ("Noto Sans Math", "Noto Sans Math"),
+}
+FONT_ARGS: dict[str, tuple[str, str]] = {
+    "english": ("UprightFont=*-Medium", ""),
+    "chinese": ("", ""),
+    "japanese": ("", ""),
+    "korean": ("", ""),
+    "hebrew": ("FakeBold=2", ""),
+    "bengali": ("FakeBold=2", ""),
+    "arabic": ("FakeBold=2", ""),
+    "javanese": ("", ""),
+    "emoji": ("", ""),
+    "runic": ("", ""),
+    "symbols": ("", ""),
+    "math": ("", ""),
+}

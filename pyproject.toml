@@ -1,0 +1,18 @@
+[project]
+name = "hello-world-video"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fonttools>=4.62.1",
+    "manim>=0.20.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "requests>=2.33.1",
+    "tqdm>=4.67.3",
+    "types-requests>=2.33.0.20260503",
+]
+
+[tool.ruff]
+line-length = 100
+preview = true
+target-version = "py314"
