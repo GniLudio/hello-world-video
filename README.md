@@ -13,6 +13,11 @@ To install the required python packages:
 uv sync
 ```
 
+To fetch the code:
+```console
+uv run python src/fetch.py
+```
+
 To render the video:
 ```console
 uv run manim src/main.py
